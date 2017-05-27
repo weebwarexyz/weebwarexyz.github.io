@@ -14,7 +14,7 @@
 #logo>* {
     display: inline-block;
     font-size: 3em;
-    font-family: "Helvetica";
+    font-family: "Roboto";
     text-decoration: none;
     color: #e0e0e0;
 }
@@ -34,11 +34,11 @@
 
 .button {
     text-decoration: none;
-    background-color: #455e7a;
-    color: #e0e0e0;
+    background-color: #e0e0e0;
+    color: #000000;
     padding: 5px;
-    border: 1px solid;
-    border-color: #000000
+    font-family: "Roboto";
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 50)
 }
 
 .rightAlign,
@@ -52,10 +52,18 @@
     right: 0;
 }
 
+#edgif {
+    position:absolute;
+    left:50%;
+    top:75%;
+    transform: translate(-50%,-50%);
+    border-radius:5px
+}
+
 html,
 body {
     background-color: #000000;
     height: 100%;
     width: 100%;
-    overflow:hidden;
+    overflow: hidden;
 }
