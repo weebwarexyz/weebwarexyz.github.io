@@ -31,6 +31,23 @@ video {
     transform: translate(0, 25px);
 }
 
+#steamandyoutubelinks {
+    position: relative;
+    transform: translate(0, 130px);
+    color: #eee
+    background-color: #212121
+}
+.rightAlign2,
+.leftAlign2 {
+    position: absolute;
+    margin-left: 13px;
+    margin-right: 5px;
+}
+
+.rightAlign2 {
+    right: 0;
+}
+
 .blockDisplay {
     display: block;
 }
@@ -38,11 +55,16 @@ video {
 #middleText h1 {
     text-align: center;
 }
-
-.button {
-    text-decoration: none;
+.white-button {
     background-color: #e0e0e0;
     color: #000000;
+}
+.black-button {
+     color: #eee;
+     background-color: #212121;
+}
+.button {
+    text-decoration: none;
     padding: 5px;
     font-family: "Roboto";
     box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 50);
@@ -67,4 +89,5 @@ video {
     transform: translate(-50%,-50%);
     border-radius:5px
 }
+
 
