@@ -17,6 +17,21 @@ video {
     transform: translate(-50%, -90%);
 }
 
+#scrollingtext {
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    font-size: 3em;
+    font-family: "Roboto";
+    text-decoration: none;
+    color: #eee;
+    text-shadow:
+   .75px .75px 0 #000,  
+    .75px .75px 0 #000,
+    .75px .75px 0 #000,
+     .75px .75px 0 #000;
+}
+
 #logo>* {
     display: inline-block;
     font-size: 3em;
@@ -25,6 +40,8 @@ video {
     color: #eee;
     -webkit-text-stroke: .75px black;
 }
+
+
 
 #profileLinks {
     position: relative;
@@ -80,6 +97,10 @@ video {
 
 .rightAlign {
     right: 0;
+}
+.no-link {
+text-decoration: none;
+color: #fff;
 }
 
 #edgif {
