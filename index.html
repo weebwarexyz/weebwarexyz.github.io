@@ -45,6 +45,28 @@ document.onkeydown = function (event) {
     <script>document.addEventListener("contextmenu", function(e){
     e.preventDefault();
 }, false);</script>
+    <script>
+
+  document.onkeydown = function(e) {
+    if(e.keyCode == 123) {
+     return false;
+    }
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+     return false;
+    }
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+     return false;
+    }
+    if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+     return false;
+    }
+
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)){
+     return false;
+    }      
+ }
+
+</script>
     <!––add all the brackets in under this––>
 <div class="overlay"><marquee bgcolor="black" height="60" scrollamount="35">                                                                                                                              </marquee></div>
 </head>
